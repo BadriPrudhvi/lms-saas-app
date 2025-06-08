@@ -28,6 +28,7 @@ const NavItems = () => {
             href={item.href} 
             key={item.label}
             className={cn(
+                "text-sm font-medium text-gray-500 hover:text-primary transition-colors",
                 pathname === item.href && "text-primary font-semibold"
             )}
             >
